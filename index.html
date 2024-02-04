@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Module Test Project Jan 24 Frontend 1</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand">
+          <img
+            src="assets/Nav/Logo.png"
+            alt="Codevo"
+            width="120"
+            height="36"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#"  style="color: #FF5151; padding: 6px 18px; font-size: 20px;">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pages</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Lookups</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <a class="nav-icon-link" href="#">
+              <i class="fas fa-search"></i>
+            </a>
+            <a class="nav-icon-link" href="#">
+              <i class="fas fa-user"></i>
+            </a>
+            <a class="nav-icon-link" href="#">
+              <i class="fas fa-shopping-cart"></i>
+            </a>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="hero">
+        <img src="./assets/Poster.png" alt="Fashion" class="img-fluid">
+      </div>
+      
+      <!-- collection -->
+      <!-- Collection Header Image -->
+<div class="collection-header">
+    <img src="./assets/Collection.png" alt="Collection Header" class="img-fluid">
+  </div>
+  
+  <!-- Collection Title and Toggle Buttons -->
+  <div class="collection-title-and-buttons">
+    <h2 class="collection-title">Our Top Collection</h2>
+    <div class="toggle-buttons">
+      <button class="btn toggle active">Jewellery</button>
+      <button class="btn toggle">Accessories</button>
+      <button class="btn toggle">Dresses</button>
+      <button class="btn toggle">Footwear</button>
+    </div>
+  </div>
+  
+  <!-- Product Cards -->
+  <div class="product-cards">
+    <!-- Repeat this structure for each product -->
+    <div class="card">
+      <img src="./assets/PngItem_1171479.png" alt="Product" class="product-image">
+      <div class="card-body">
+        <h5 class="product-title">Nike Air Men's Hoodie - Imported</h5>
+        <p class="price">$150</p>
+        <img src="./assets/Group 3.png" alt="Rating" class="rating">
+        <button class="btn btn-primary">Add to Cart</button>
+      </div>
+    </div>
+    <div class="card">
+      <img src="./assets/gratis-png-vestido-azul-cintura-escote-surplice-mujer-vestido-azul-retro-removebg-preview 1.png" alt="Product" class="product-image">
+      <div class="card-body">
+        <h5 class="product-title">Armani Frok Ladies - Imported Fork Blue</h5>
+        <p class="price">$250</p>
+        <img src="./assets/Group 3.png" alt="Rating" class="rating">
+        <button class="btn btn-primary">Add to Cart</button>
+      </div>
+    </div>
+    <div class="card">
+      <img src="./assets/apple-watch-series-2-hardware-3-aluminium-removebg-preview 1.png" alt="Product" class="product-image">
+      <div class="card-body">
+        <h5 class="product-title">Apple Watch Series 6 - Sliver Band</h5>
+        <p class="price">$150</p>
+        <img src="./assets/Group 3.png" alt="Rating" class="rating">
+        <button class="btn btn-primary">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+  
+      <!-- new arrival -->
+
+      <div class="new-arrival">
+        <h2 class="section-title">Latest Collection</h2>
+        <div class="grid-container">
+          <div class="grid-item">
+            <img src="./assets/Poster 1.png" alt="New Arrival 1" class="img-fluid">
+          </div>
+          <div class="grid-item">
+            <img src="./assets/Poster 2.png" alt="New Arrival 2" class="img-fluid">
+          </div>
+          <div class="grid-item">
+            <img src="./assets/Poster 3.png" alt="New Arrival 3" class="img-fluid">
+          </div>
+        </div>
+      </div>
+      
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

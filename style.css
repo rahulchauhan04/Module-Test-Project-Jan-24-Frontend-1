@@ -1,0 +1,212 @@
+/* Custom Navbar Styles */
+.navbar-brand img {
+    max-width: 100%;
+    height: auto;
+}
+
+.nav-icon-link {
+    color: #000;
+    margin: 0 10px;
+}
+
+/* Ensure the navbar text and icons are centered vertically */
+.navbar-nav li,
+.form-inline {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link {
+    display: inline-block;
+    min-width: 58px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #FF5151;
+    font-weight: bold; /* Adjust font-weight as needed */
+    /* Add other styling as needed to match the design */
+}
+
+.nav-link.active {
+    /* Additional styles for the active state if needed */
+}
+
+/* Responsive adjustments */
+@media (max-width: some-breakpoint) {
+    .nav-link {
+        /* Adjustments for mobile view */
+    }
+}
+/* General styles for the navbar links */
+.navbar-nav .nav-link {
+    margin-right: 20px; /* Adjust the right margin between nav items */
+    color: #FF5151; /* Your color for the text */
+}
+
+/* Styles specifically for the logo and the items around it to ensure alignment */
+.navbar-brand {
+    margin-right: 30px; /* Space between logo and nav items */
+}
+
+/* Adjust the padding for the nav-item if needed */
+.nav-item {
+    padding: 10px 0; /* Vertical padding 10px and horizontal padding 0 */
+}
+
+/* Style for search icon and other icons */
+.nav-icon-link {
+    padding: 5px 15px; /* Adjust padding as needed */
+}
+
+/* If you need to specifically adjust padding or margin for mobile view */
+@media (max-width: 768px) {
+    .navbar-nav .nav-link {
+        margin-right: 10px; /* Less margin in mobile view */
+    }
+
+    .nav-icon-link {
+        padding: 5px 10px; /* Less padding in mobile view */
+    }
+}
+
+
+
+
+/* her0 section   */
+
+.hero {
+    background: url('./assets/Rectangle\ 253.png') no-repeat center center;
+    background-size: cover;
+    margin: 0; /* Remove margin if you want the image to be edge-to-edge */
+    padding: 0; /* Remove padding if the image already has space */
+  }
+  
+  /* For responsive design: ensure that the hero image scales nicely on smaller screens */
+  @media (max-width: 768px) {
+    .hero {
+      padding: 0; /* If you want no padding on smaller screens */
+    }
+  
+    .hero img {
+      width: 100%; /* Ensures the image takes full width of the screen */
+      height: auto; /* Maintains the aspect ratio of the image */
+    }
+  }
+  
+
+  /* collection */
+
+  .collection-header {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .collection-title-and-buttons {
+    text-align: center;
+  }
+  
+  .collection-title {
+    color: #000;
+    margin-bottom: 1rem;
+  }
+  
+  .toggle-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .btn.toggle {
+    background-color: #FFF;
+    color: #4F5665;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .btn.toggle.active {
+    color: #FFF;
+    background-color: #FF5151;
+  }
+  
+  .product-cards {
+    display: flex;
+    overflow-x: auto;
+  }
+  
+  .card {
+    background: #FFF3F2;
+    margin-right: 1rem;
+    border-radius: 25px;
+    width: 380px; /* Set a fixed width for the cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden; /* Ensures the content fits within the border-radius */
+  }
+  
+  .product-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-body {
+    padding: 1rem;
+  }
+  
+  .product-title {
+    margin-bottom: 0.5rem;
+  }
+  
+  .price {
+    color: #FF5151;
+    margin-bottom: 0.5rem;
+  }
+  
+  .rating {
+    height: 31px;
+    margin-bottom: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .toggle-buttons {
+      flex-direction: column;
+    }
+  }
+
+
+  /* <!-- new arrival --> */
+  
+  .new-arrival {
+    margin: 2rem auto;
+    text-align: center;
+  }
+  
+  .section-title {
+    margin-bottom: 1rem;
+    /* Add more styling to the title as per your design */
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+  }
+  
+  .grid-item {
+    /* Optional: if you want to maintain aspect ratio, you can use padding-top trick */
+  }
+  
+  .grid-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px; /* as per your design */
+  }
+  
+  @media (max-width: 768px) {
+    .grid-container {
+      grid-template-columns: 1fr; /* Stack images on top of each other on small screens */
+    }
+  }
+  
+  
